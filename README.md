@@ -10,12 +10,12 @@ Endpoint: https://ogtag.me/API_KEY
 
 
 
-```json
+```js
 {
-    "image" : "string" , 
-    "url" : "string" ,
-    "description" : "string" ,
-    "title" : "string"
+    image : "string" , 
+    url : "string" ,
+    description : "string" ,
+    title : "string"
 }
 ```
 
@@ -41,11 +41,11 @@ fetch("https://ogtag.me/API_KEY" , {
 
 ### Response 
 
-```json
+```js
 {
-    "url" : "string" ,
-    "status" : "number" ,
-    "status_message" : "string" ,
-    "hash" : "string"
+    url : "string" ,
+    status : "number" ,
+    status_message : "string" ,
+    hash : "string"
 }
 ```
