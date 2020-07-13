@@ -12,10 +12,10 @@ Endpoint: https://ogtag.me/API_KEY
 
 ```json
 {
-    image : string , 
-    url : string ,
-    description : string ,
-    title : string
+    "image" : "string" , 
+    "url" : "string" ,
+    "description" : "string" ,
+    "title" : "string"
 }
 ```
 
@@ -23,9 +23,9 @@ Endpoint: https://ogtag.me/API_KEY
 
 ```json
 {
-    url : string ,
-    status : number ,
-    status_message : string ,
-    hahs : string
+    "url" : "string" ,
+    "status" : "number" ,
+    "status_message" : "string" ,
+    "hash" : "string"
 }
 ```
