@@ -19,6 +19,26 @@ Endpoint: https://ogtag.me/API_KEY
 }
 ```
 
+Example Request 
+
+```js
+
+let obj = {
+    url : "https://app.ogtag.me",
+    image : "https://app.ogtag.me/static/media/lightn.21713b21.jpg",
+    description : "Shorten your links"
+}
+fetch("https://ogtag.me/API_KEY" , {
+    method : "POST" ,
+    body : JSON.stringify(obj) 
+
+})
+.then((res) => res.json() )
+.then((data) => console.log("🚧 shorten url: " + data.url ))
+
+
+```
+
 ### Response 
 
 ```json
