@@ -46,6 +46,13 @@ fetch("https://ogtag.me/API_KEY" , {
     url : "string" ,
     status : "number" ,
     status_message : "string" ,
-    hash : "string"
+    hash : "string" ,
+    type : "string"
 }
 ```
+### Default Values
+To change the values just specify them to overwrite them.
+
+tag | value |
+----|-------|
+type|article|
